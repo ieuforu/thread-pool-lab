@@ -1,5 +1,12 @@
 # thread-pool-lab
 
+> **已迁移 / Moved（2026-11-01）**
+>
+> 当前代码、文档与后续维护已移至 [frontend-labs / labs/thread-pool](https://github.com/ieuforu/frontend-labs/tree/main/labs/thread-pool)。请在新仓库提交 Issue 和 PR。
+>
+> 原仓库的提交历史已完整保留在新仓库；本仓库保留历史版本。下方是迁移前的说明，其中性能与生产可用性描述不代表当前验证结论，当前行为和限制请以新仓库文档为准。
+
+
 A production-grade, zero-dependency multi-core worker thread pool built with TypeScript, `SharedArrayBuffer` (SAB), and lock-free `Atomics` pipeline synchronization. Demonstrates true multi-threaded CPU parallel computation, zero-copy physical memory access, and non-blocking 120 FPS UI execution in the browser.
 
 ---
